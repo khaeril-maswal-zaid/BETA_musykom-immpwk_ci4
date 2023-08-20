@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(243, 243, 243);
+}
+
+/* yang foto admin agar elemen tdk full ke kanan */
+.profil-admin {
+  position: fixed;
+  /* right: 0; */
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* //supaya Ck Editor Full 100% */
+.ck.ck-editor {
+  min-width: 100%;
+}
